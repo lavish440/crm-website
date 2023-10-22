@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
   /* color: white; */
 }
 
@@ -60,6 +60,11 @@ a {
   border-radius: 4px;
 }
 
+#magnifying-glass {
+  height: 36px;
+  margin-top: 31px;
+}
+
 #announcment {
   height: 36px;
   margin-top: 31px;
@@ -68,4 +73,18 @@ a {
 #globe {
   height: 36px;
   margin-top: 31px;
+}
+
+#sign-up {
+  width: 90px;
+  height: 30px;
+  margin-top: 32px;
+}
+
+#red-line {
+  width: 5rem;
+  margin: 1em;
+  margin-left: 1em;
+  margin-left: 0;
+  color: red;
 }
