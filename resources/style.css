@@ -22,12 +22,14 @@ body {
 
 .left-section {
   float: left;
-  width: 75%;
+  width: 30%;
+  margin-left: 250px;
 }
 
 .right-section {
   float: right;
   width: 25%;
+  margin-right: 100px;
 }
 
 ul {
