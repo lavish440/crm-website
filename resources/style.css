@@ -1,7 +1,13 @@
+@font-face {
+  font-family: Puvi;
+  src: url(fonts/Puvi_Regular.woff2);
+}
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: Puvi;
+  font-weight: 800;
   /* color: white; */
 }
 
@@ -22,7 +28,8 @@ body {
 
 .left-section {
   float: left;
-  width: 30%;
+  width: 33%;
+  margin-top: 100px;
   margin-left: 250px;
 }
 
@@ -40,6 +47,7 @@ ul {
 li {
   display: inline-block;
   justify-content: space-around;
+  color: white;
   margin-top: 36px;
   margin-left: 50px;
 }
@@ -67,17 +75,17 @@ a {
 
 #magnifying-glass {
   height: 24px;
-  margin-top: 37px;
+  margin-top: 35px;
 }
 
 #announcment {
   height: 24px;
-  margin-top: 37px;
+  margin-top: 35px;
 }
 
 #globe {
   height: 24px;
-  margin-top: 37px;
+  margin-top: 35px;
   margin-right: -51px;
 }
 
@@ -93,4 +101,32 @@ a {
   margin-left: 1em;
   margin-left: 0;
   color: red;
+}
+
+#get-started {
+  width: 200px;
+  height: 36px;
+  margin-top: 15px;
+  color: white;
+  background-color: red;
+  border: 0px;
+}
+
+#title-text {
+  font-size: 50px;
+}
+
+#title-description {
+  word-spacing: 4px;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.content {
+  border: 2px solid black;
+  margin-top: 90px;
+  height: 550px;
+  width: 300px;
+  display: flex;
+  flex-direction: y;
 }
