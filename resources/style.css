@@ -37,6 +37,8 @@ body {
   float: right;
   width: 25%;
   margin-right: 100px;
+  display: flex;
+  flex-direction: y;
 }
 
 ul {
@@ -125,8 +127,10 @@ a {
 .content {
   border: 2px solid black;
   margin-top: 90px;
+  padding: 20px;
   height: 550px;
   width: 300px;
   display: flex;
-  flex-direction: y;
+  justify-content: space-between;
+  flex-direction: column;
 }
