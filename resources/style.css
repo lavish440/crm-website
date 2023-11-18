@@ -24,7 +24,9 @@ body {
   justify-content: space-around;
   width: 100%;
   height: 100px;
-  background-color: red;
+  background-color: RGB(146, 168, 209);
+  /* background-color: white; */
+  color: black;
 }
 
 .left-section {
@@ -43,7 +45,7 @@ body {
 }
 
 ul {
-  color: white;
+  color: black;
   list-style-type: none;
 }
 
@@ -53,7 +55,7 @@ li {
   justify-content: space-around;
   margin-top: 36px;
   margin-left: 50px;
-  color: white;
+  color: black;
   overflow: hidden;
   background: linear-gradient(
     to right,
@@ -150,9 +152,29 @@ a {
   height: 550px;
   padding: 20px;
   margin-top: 90px;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 h4 {
   font-weight: 100;
+}
+.content > div {
+  color: black;
+  background-color: black;
+  overflow: hidden;
+  background: linear-gradient(
+    to right,
+    /* #6b5b95 50%, */ RGB(146, 168, 209),
+    midnightblue 50%,
+    midnightblue
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+.content > div:hover {
+  background-position: 0 100%;
 }
